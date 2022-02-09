@@ -1,0 +1,8 @@
+bin/
+obj/
+.idea/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/Features/*.feature.cs
+*.DotSettings.user

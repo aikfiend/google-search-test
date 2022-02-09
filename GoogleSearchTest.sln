@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = ".", "GoogleSearchTest.csproj", "{CF2F13C3-6BDA-4851-9781-B52CEBD6BF2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF2F13C3-6BDA-4851-9781-B52CEBD6BF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2F13C3-6BDA-4851-9781-B52CEBD6BF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2F13C3-6BDA-4851-9781-B52CEBD6BF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2F13C3-6BDA-4851-9781-B52CEBD6BF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
