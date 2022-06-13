@@ -15,7 +15,9 @@ namespace GoogleSearchTest.Hooks
         [BeforeScenario]
         public void BeforeScenario()
         {
-            _browserDriver.Driver = new ChromeDriver();
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddUserProfilePreference("intl.accept_languages", "en-US");
+            _browserDriver.Driver = new ChromeDriver(chromeOptions);
             _browserDriver.Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(ImplicitWaitTimeout);
             _browserDriver.Driver.Manage().Cookies.DeleteAllCookies();
         }

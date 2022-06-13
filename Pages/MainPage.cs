@@ -16,6 +16,10 @@ public class MainPage
     }
 
     private IWebElement AgreeButton => _driver.FindElement(By.XPath("//button/div[text()='I agree']"));
+
+    // Will do the same, but less readable and understandable
+    // private IWebElement AgreeButton => _driver.FindElement(By.CssSelector("div.VDity>button:last-child>div"));
+
     private IWebElement SearchField => _driver.FindElement(By.Name("q"));
     private IWebElement ResultsPanel => _driver.FindElement(By.Id("result-stats"));
     private IWebElement SearchButton => _driver.FindElement(By.Name("btnK"));
